@@ -91,7 +91,6 @@ class _PasswordScreenState extends State<PasswordScreen> {
                 controller: _passwordController,
                 cursorColor: Theme.of(context).primaryColor,
                 obscureText: _obscureText,
-                keyboardType: TextInputType.emailAddress,
                 onEditingComplete: _onSubmit,
                 autocorrect: false,
                 decoration: InputDecoration(
